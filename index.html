@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Resume</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        
+        .container {
+            width: 210mm;
+            height: 297mm;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        
+        .header {
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        
+        .header h2 {
+            margin: 10px 0 0;
+            font-weight: 300;
+            font-size: 18px;
+        }
+        
+        .photo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid white;
+            overflow: hidden;
+        }
+        
+        .photo img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .content {
+            padding: 20px;
+        }
+        
+        .section {
+            margin-bottom: 20px;
+        }
+        
+        .section h3 {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        
+        .item {
+            margin-bottom: 15px;
+        }
+        
+        .item h4 {
+            margin: 0;
+            color: #2c3e50;
+        }
+        
+        .item p {
+            margin: 5px 0;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .skill {
+            background-color: #3498db;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin: 5px;
+            font-size: 14px;
+        }
+        
+        @media print {
+            body {
+                background-color: white;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Your Name</h1>
+            <h2>Your Professional Title</h2>
+            <div class="photo">
+                <img src="4.png" alt="Your Name">
+            </div>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h3>Contact Information</h3>
+                <p>Email: your.email@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Location: City, State/Country</p>
+                <p>LinkedIn: linkedin.com/in/yourprofile</p>
+            </div>
+            <div class="section">
+                <h3>Summary</h3>
+                <p>A brief, compelling summary of your professional background and key strengths.</p>
+            </div>
+            <div class="section">
+                <h3>Work Experience</h3>
+                <div class="item">
+                    <h4>Job Title - Company Name</h4>
+                    <p>Start Date - End Date</p>
+                    <ul>
+                        <li>Key responsibility or achievement</li>
+                        <li>Another important contribution</li>
+                        <li>A notable accomplishment</li>
+                    </ul>
+                </div>
+                <!-- Add more work experience items as needed -->
+            </div>
+            <div class="section">
+                <h3>Education</h3>
+                <div class="item">
+                    <h4>Degree Name - Institution</h4>
+                    <p>Graduation Date</p>
+                    <p>Any honors or relevant coursework</p>
+                </div>
+            </div>
+            <div class="section">
+                <h3>Skills</h3>
+                <div class="skills">
+                    <span class="skill">Skill 1</span>
+                    <span class="skill">Skill 2</span>
+                    <span class="skill">Skill 3</span>
+                    <span class="skill">Skill 4</span>
+                    <!-- Add more skills as needed -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
